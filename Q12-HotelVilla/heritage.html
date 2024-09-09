@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritage Sites - Nanded</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .heritage-list ul {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px; 
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            justify-items: center; 
+        }
+
+        .heritage-list li {
+            margin: 0;
+        }
+
+        .heritage-list img {
+            width: 300px; 
+            height: 200px; 
+            object-fit: cover; 
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .heritage-list a {
+            text-decoration: none;
+        }
+
+        .heritage-list img:hover {
+            transform: scale(1.05); 
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="City Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="heritage.html">Heritage</a></li>
+                <li><a href="hotel-booking.html">Hotel Booking</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Heritage Sites of Nanded</h1>
+        <p>Explore the rich history of our city through its heritage sites. Click on the images to learn more about each site.</p>
+
+        <section class="heritage-list">
+            <ul>
+                <li>
+                    <a href="heritage1.html">
+                    <img src="CityImage.png" alt="Heritage Site 1">
+                    </a>
+                </li>
+                <li>
+                    <a href="heritage3.html">
+                        <img src="SRTMUN.jpeg" alt="Heritage Site 2">
+                    </a>
+                </li>
+                <li>
+                    <a href="heritage5.html">
+                        <img src="Kaleshwar.jpeg" alt="Heritage Site 3">
+                    </a>
+                </li>
+                <li>
+                    <a href="heritage2.html">
+                    <img src="GuruDwara.jpg" alt="Heritage Site 4">
+                    </a>
+                </li>
+                <li>
+                    <a href="heritage4.html">
+                        <img src="hospitaljpeg.jpeg" alt="Heritage Site 5">
+                    </a>
+                </li>
+                <li>
+                    <a href="heritage7.html">
+                        <img src="planejpeg.jpeg" alt="Heritage Site 6">
+                    </a>
+                </li>
+                <li>
+                    <a href="heritage9.html">
+                        <img src="ratneshwari.jpeg" alt="Heritage Site 7">
+                    </a>
+                </li>
+                <li>
+                    <a href="heritage10.html">
+                        <img src="Shastrakund.jpeg" alt="Heritage Site 8">
+                    </a>
+                </li>
+                <li>
+                    <a href="heritage8.html">
+                    <img src="stediumjpeg.jpeg" alt="Heritage Site 9">
+                    </a>
+                </li>
+                <li>
+                    <a href="heritage6.html">
+                        <img src="mondha.jpeg" alt="Heritage Site 10">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 City Tourism. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
